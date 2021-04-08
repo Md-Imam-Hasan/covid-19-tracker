@@ -12,7 +12,7 @@ const containerStyle = {
 function Map({ zoom, center, countries, casesType }) {
   return (
     <LoadScript
-      googleMapsApiKey="AIzaSyDn_VUwN2dzgxjzdrGazNkE4S3QLLIj9TM"
+      googleMapsApiKey=""
     >
       <GoogleMap
         mapContainerStyle={containerStyle}
