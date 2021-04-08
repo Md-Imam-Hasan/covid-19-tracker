@@ -1,0 +1,56 @@
+.covidTracker {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #f5f6fa;
+  margin: 30px;
+}
+
+.covidTracker__dropdown {
+  background-color: white;
+}
+
+.covidTracker__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.covidTracker__header > h1 {
+  color: #fc3c3c;
+}
+
+.covidTracker__stats {
+  display: flex;
+  justify-content: space-between;
+}
+
+.covidTracker__left {
+  flex: 2;
+  margin-right: 15px;
+}
+
+.covidTracker__right {
+  flex: 1;
+}
+
+.covidTracker__graph canvas {
+  height: 200px !important;
+}
+
+.covidTracker__information > h3 {
+  color: #6a5d5d;
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.covidTracker__information > h3:last-of-type {
+  margin-top: 1rem;
+}
+
+@media (max-width: 990px) {
+  .covidTracker {
+    flex-direction: column;
+  }
+}
